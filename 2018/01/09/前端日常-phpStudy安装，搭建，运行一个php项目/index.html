@@ -1,0 +1,62 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="方小新，前端，日常"><title>page前端日常-phpStudy安装，搭建，运行一个php项目 | 前端日常</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/7.0.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/1.0.0/grids-responsive-min.css"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">page前端日常-phpStudy安装，搭建，运行一个php项目</h1><a id="logo" href="/.">前端日常</a><p class="description">小新~前端日常o(╯□╰)o</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-code"> 归档</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">page前端日常-phpStudy安装，搭建，运行一个php项目</h1><div class="post-meta">Jan 9, 2018<script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> 阅读</span></span></div><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">文章目录</div><ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#首要问题：为什么一个页面仔（哈哈）要安装这个？？？"><span class="toc-number">1.</span> <span class="toc-text">首要问题：为什么一个页面仔（哈哈）要安装这个？？？</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#Hbuild"><span class="toc-number">1.0.1.</span> <span class="toc-text">Hbuild</span></a></li><li class="toc-item toc-level-6"><a class="toc-link" href="#VS-Code"><span class="toc-number">1.0.2.</span> <span class="toc-text">VS Code</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#正文"><span class="toc-number"></span> <span class="toc-text">正文</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#安装-phpStudy-软件"><span class="toc-number">1.</span> <span class="toc-text">安装 phpStudy 软件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#关于局域网手机上预览项目"><span class="toc-number">2.</span> <span class="toc-text">关于局域网手机上预览项目</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#对比-xampp-control，为什么我要换这个呢？"><span class="toc-number">3.</span> <span class="toc-text">对比 xampp-control，为什么我要换这个呢？</span></a></li></ol></div></div><div class="post-content"><h4 id="首要问题：为什么一个页面仔（哈哈）要安装这个？？？"><a href="#首要问题：为什么一个页面仔（哈哈）要安装这个？？？" class="headerlink" title="首要问题：为什么一个页面仔（哈哈）要安装这个？？？"></a><strong>首要问题：为什么一个页面仔（哈哈）要安装这个？？？</strong></h4><p>讲真，不是为了学习 php，只是为了在公司内，方便设计人员，Boss 等给个链接，局域网内就能看页面效果，只是朋友推荐了这个不妨试试，当然也有其他的工具，比如：Hbuild 自带的预览效果也是可以分享出去链接，二维码预览，但是如果哪天不用 Hbuild 了呢？我已经在这样想了，因为觉得 Hbuild （下图）有点慢，卡，（官方正在着手 Hbuild X 的开发内测，不知道有没有机会提前体验到）当然它依旧是一个不错的的 IDE，也有自己的框架 MUI ，不过我还是考虑备用一个更轻量的，VS Code 是首选。</p>
+<h6 id="Hbuild"><a href="#Hbuild" class="headerlink" title="Hbuild"></a>Hbuild</h6><p><img src="http://img.blog.csdn.net/20180109102050267?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzIwNDE1Mjk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="image"></p>
+<p><a href="http://www.dcloud.io/index.html" target="_blank" rel="noopener">Hbuild官网</a></p>
+<h6 id="VS-Code"><a href="#VS-Code" class="headerlink" title="VS Code"></a>VS Code</h6><p><img src="http://img.blog.csdn.net/20180109102518012?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzIwNDE1Mjk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="image"><br><a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VS Code 官网</a></p>
+<blockquote>
+<p>重要的是技能，而不是编辑器，工具自己用着顺手就行，这点需要清楚！</p>
+</blockquote>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a><strong>正文</strong></h2><h4 id="安装-phpStudy-软件"><a href="#安装-phpStudy-软件" class="headerlink" title="安装 phpStudy 软件"></a>安装 phpStudy 软件</h4><p><img src="http://img.blog.csdn.net/20180109165038609?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzIwNDE1Mjk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="image"></p>
+<p>1.<a href="http://www.phpstudy.net/" target="_blank" rel="noopener">官网下载</a>，之后下一步下一步安装即可，这个一般没有坑，都能安装好。（请记住你安装在哪个地方）；</p>
+<p>2.我们试着新建一个项目（随便你想用什么项目），文件在：<br>D:\phpStudy\PHPTutorial\WWW 因为我是安装在 D 盘了，在 WWW 文件下下创建一个 myproject 的文件夹，然后打开一个编辑器，新建一个页面,随便写些什么，保存到 myproject 文件夹；我建了个 index.html ,默认是找 index 名的文件，所以这样命名。</p>
+<p><img src="http://img.blog.csdn.net/20180109112919296?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzIwNDE1Mjk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="image"></p>
+<p>3.打开 phpStudy ,你可以把各个设置菜单都打开看看，我们需要进入【站点域名管理】随便填写一个域名，之后以此填好，点击新增，保存。<br><img src="http://img.blog.csdn.net/20180109111207436?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzIwNDE1Mjk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="image"></p>
+<p>之后你可以在【其他选项菜单】-【打开配置文件】-【vhosts-ini】里面看到自己配置的信息，是不是很熟悉，如果你用过 xampp-control，其实差不多d(´ω｀*)</p>
+<blockquote>
+<p><strong>重点：==网站目录==，你需要路径是你的网站入口页面，比如：php 框架 laravel 你需要把路劲改到 public 下才能找到 index.php,后面说。</strong></p>
+</blockquote>
+<p><img src="http://img.blog.csdn.net/20180109111548041?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzIwNDE1Mjk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="image"></p>
+<p>4.再打开【其他选项菜单】-【打开host】,添加如下，保存，重启；</p>
+<p><img src="http://img.blog.csdn.net/20180109112242855?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzIwNDE1Mjk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="image"></p>
+<p>5.打开浏览器，输入配置的网址：www.fangxiaoxin.com,预览效果如下。</p>
+<p><img src="http://img.blog.csdn.net/20180109114400737?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzIwNDE1Mjk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="image"></p>
+<p>OK，这里基本得使用就结束了，<strong>但是</strong>，我把后台的PHP项目拿来就出现了问题，如下描述才是重点：<br>首先明确一下后台使用的什么框架，版本号等，非常重要，我这边后台要求是：</p>
+<blockquote>
+<p>“php”: “&gt;=5.6.4”,<br>“laravel/framework”: “5.3.*”……</p>
+</blockquote>
+<p><strong>切换版本要高于项目的</strong></p>
+<p>还有一个，你需要导入（测试）数据库，因为我们这个项目没有完全前后端分离</p>
+<blockquote>
+<p>操作：【MySQL管理器】-【MySql导入导出】里面导入即可（视数据大小，多等会）或者其他方式导入；</p>
+</blockquote>
+<p>当然你也需要改一下根目录下的 .env 里的数据库配置（千万别忘了，或者改错╮(╯﹏╰）╭），可在项目根目录 composer.json 文件里面找到</p>
+<blockquote>
+<p>DB_CONNECTION=mysql</p>
+<p>DB_HOST=localhost</p>
+<p>DB_PORT=3306</p>
+<p>DB_DATABASE=<strong><em>*</em></strong></p>
+<p>DB_USERNAME=<strong>*</strong></p>
+<p>DB_PASSWORD=<strong>*</strong></p>
+</blockquote>
+<p>整个还是重复上面的步骤，复制项目 WWW 下，添加域名，修改 host ，然后就发现项目并不能运行，如下：</p>
+<p><img src="http://img.blog.csdn.net/20180109162349884?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzIwNDE1Mjk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="image"></p>
+<p>没错，关于 openssl 的报错？！什么是 openSSL ?</p>
+<blockquote>
+<p>在电脑网络上，OpenSSL是一个开放源代码的软件库包，应用程序可以使用这个包来进行安全通信，避免窃听，同时确认另一端连接者的身份。这个包广泛被应用在互联网的网页服务器上。</p>
+<p> 其主要库是以C语言所写成，实现了基本的加密功能，实现了SSL与TLS协议。OpenSSL可以运行在OpenVMS、 Microsoft Windows以及绝大多数类Unix操作系统上（包括Solaris，Linux，Mac OS X与各种版本的开放源代码BSD操作系统）。它也提供了一个移植版本，可以在IBM i（OS/400）上运作。</p>
+<p> —来自：维基百科</p>
+</blockquote>
+<p>因为在这个框架里面使用到了 openSSL 加密算法，所以需要开启 openSSL </p>
+<blockquote>
+<p>操作：【其他选项菜单】-【PHP扩展与设置】-【PHP扩展】，勾选 php_openssl,重启，再次尝试应该就可以打开项目了；（其中也是遇到各种小问题，就不一一 列出）</p>
+</blockquote>
+<p>为什么 phpstudy 没有默认勾选这个呢，毕竟加密算法不止这一个，所以还是灵活点，注意问一个同事之间使用的框架情况。</p>
+<p>我的最终目的是为了方便局域网预览项目，总不能每次都麻烦后台小伙伴发布到测试环境在看，有点麻烦，而且小小的样式改动，就推到测试环境，也是麻烦；</p>
+<h4 id="关于局域网手机上预览项目"><a href="#关于局域网手机上预览项目" class="headerlink" title="关于局域网手机上预览项目"></a>关于局域网手机上预览项目</h4><p>没错，又有坑了；(╯︵╰)，而且，目前还不知道为什么，只是比较慢，出现不稳定的情况、目前是：打不开的时候，就重启 Apache，即可。</p>
+<p>具体操作：</p>
+<p><strong>在【站点域名管理】及 host 里面，将域名改成自己电脑 ip,重启 phpStudy ,手机打开即可（打不开就多刷刷吧）</strong></p>
+<p>获取电脑IP操作:</p>
+<p><strong>win+R, CMD 回车，输入 ipconfig 即可查看</strong></p>
+<hr>
+<h4 id="对比-xampp-control，为什么我要换这个呢？"><a href="#对比-xampp-control，为什么我要换这个呢？" class="headerlink" title="对比 xampp-control，为什么我要换这个呢？"></a>对比 xampp-control，为什么我要换这个呢？</h4><p>是的，原因也是 xampp-control 手机预览不问题，刷不出来，不能访问，但是目前来看，似乎 phpStudy 要好点，有备无患，留着备用，或者闲了看看 PHP 也是可以的(￣▽￣)~*，感谢php小伙伴的帮助！！！</p>
+<p>【完】</p>
+</div><iframe src="/donate/?AliPayQR=/img/ali.jpg&amp;WeChatQR=/img/wechat.jpg&amp;GitHub=null&amp;BTCQR=null&amp;BTCKEY=null&amp;PayPal=null" style="overflow-x:hidden; overflow-y:hidden; border:0xp none #fff; min-height:240px; width:100%;" frameborder="0" scrolling="no"></iframe><div class="tags"><a href="/tags/前端/">前端</a><a href="/tags/phpStudy/">phpStudy</a></div><div class="post-nav"><a class="next" href="/2018/01/09/Vue-js-日常-npm-初始化一个-Vue-项目/">Vue.js 日常 - npm 初始化一个 Vue 项目</a></div><div id="uyan_frame"></div><script type="text/javascript" src="//v2.uyan.cc/code/uyan.js?uid=2152715"></script></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form class="search-form" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://yoursite.com"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/vue/">vue</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> 标签</i></div><div class="tagcloud"><a href="/tags/vue/" style="font-size: 15px;">vue</a> <a href="/tags/npm/" style="font-size: 15px;">npm</a> <a href="/tags/前端/" style="font-size: 15px;">前端</a> <a href="/tags/phpStudy/" style="font-size: 15px;">phpStudy</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/01/09/前端日常-phpStudy安装，搭建，运行一个php项目/">page前端日常-phpStudy安装，搭建，运行一个php项目</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/01/09/Vue-js-日常-npm-初始化一个-Vue-项目/">Vue.js 日常 - npm 初始化一个 Vue 项目</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> 友情链接</i></div><ul></ul><a href="https://github.com/Fangsiyu" title="个人Github" target="_blank">个人Github</a><ul></ul><a href="https://weibo.com/3478903664/profile?topnav=1&amp;wvr=6&amp;is_all=1" title="个人微博" target="_blank">个人微博</a><ul></ul><a href="http://catchu.github.io/" title="Java开发日记" target="_blank">Java开发日记</a><ul></ul><a href="https://www.awesomes.cn/" title="前端开发资源库" target="_blank">前端开发资源库</a></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2018 <a href="/." rel="nofollow">前端日常.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/3.2.5/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/3.2.5/jquery.fancybox.min.css"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
