@@ -19,7 +19,7 @@
 <p><img src="http://img.blog.csdn.net/20180109112242855?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzIwNDE1Mjk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="image"></p>
 <p>5.打开浏览器，输入配置的网址：www.fangxiaoxin.com,预览效果如下。</p>
 <p><img src="http://img.blog.csdn.net/20180109114400737?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXFfMzIwNDE1Mjk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="image"></p>
-<p>OK，这里基本得使用就结束了，<strong>但是</strong>，我把后台的PHP项目拿来就出现了问题，如下描述才是重点：<br>首先明确一下后台使用的什么框架，版本号等，非常重要，我这边后台要求是：</p>
+<p>OK，这里基本得使用就结束了，<strong>但是</strong>，我把后台的PHP项目拿来就出现了问题，如下描述才是重点：<br>首先明确一下后台使用的什么框架，版本号等，非常重要，我这边后台要求是（可在项目根目录 composer.json 文件里面找到）：</p>
 <blockquote>
 <p>“php”: “&gt;=5.6.4”,<br>“laravel/framework”: “5.3.*”……</p>
 </blockquote>
@@ -28,7 +28,7 @@
 <blockquote>
 <p>操作：【MySQL管理器】-【MySql导入导出】里面导入即可（视数据大小，多等会）或者其他方式导入；</p>
 </blockquote>
-<p>当然你也需要改一下根目录下的 .env 里的数据库配置（千万别忘了，或者改错╮(╯﹏╰）╭），可在项目根目录 composer.json 文件里面找到</p>
+<p>当然你也需要改一下根目录下的 .env 里的数据库配置（千万别忘了，或者改错╮(╯﹏╰）╭）</p>
 <blockquote>
 <p>DB_CONNECTION=mysql</p>
 <p>DB_HOST=localhost</p>
